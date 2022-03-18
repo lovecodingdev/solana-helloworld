@@ -66,3 +66,4 @@ export async function createKeypairFromFile(
   const secretKey = Uint8Array.from(JSON.parse(secretKeyString));
   return Keypair.fromSecretKey(secretKey);
 }
+
